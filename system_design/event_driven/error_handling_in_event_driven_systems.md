@@ -21,4 +21,4 @@ event-driven system에서 데이터는 producer에서 consumer로 단방향 이�
 1. Retryable exception: this is for those errors which can be solved by just retrying the operation once or more
 2. Requeable exception: 무언가 모종의 이유로 큐에서 정체되는 현상(poison pill)이 발생할 때 다시 넣어주는 것
 3. Droppable exception: 그냥 버림으로서 해결할 수 있는 에러
-4. DLQable exception
+4. DLQable exception: The Unhandled Exceptions
