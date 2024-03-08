@@ -18,9 +18,11 @@ PyTypeObject는 cpython의 2차적으로 적용되는 객체이다.
 이는 모든 타입 객체는 PyTypeObject로 형변환이 가능하다는 의미이다.
 
 [PyTypeObject]
+
 <img width="744" alt="스크린샷 2023-12-12 오후 12 48 42" src="https://github.com/bosungpark/paper-markdown-document/assets/81157873/3f8e2aec-4070-4167-9f1b-b8359b69c2bd">
 
 [type obj]
+
 <img width="750" alt="스크린샷 2023-12-12 오후 12 49 30" src="https://github.com/bosungpark/paper-markdown-document/assets/81157873/65d55ff6-a5a5-496c-8a52-1e557955f392">
 
 PyTypeObject 객체는 런타임 타입에 대한 디테일(타입의 이름,사이즈, 할당하고 할당을 해제할 때 사용할 함수 등등)을 가지고 있는 다소 크고 복잡한 객체이다.
