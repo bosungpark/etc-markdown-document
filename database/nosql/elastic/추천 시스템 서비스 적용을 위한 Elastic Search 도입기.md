@@ -10,4 +10,4 @@ https://blog.dramancompany.com/2022/11/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%
     - Script Score k-NN: OpenSearch의 Script Score 기능을 확장하여 나타나는 “knn_vector”에 대하여 정확한 k-NN 검색을 수행. 존재하는 벡터에 대해서 사전 필터링이 필요할 경우 사용.
     - Painless extensions: Script Score k-NN에 비하여 쿼리 성능이 약간 느리다는 단점이 존재합니다. 그러나 거리함수를 더 복잡한 상황에서 적용할 수 있다.
   - HNSW (Hierarchical Navigable Small World Algorithm): k-NN 검색문제에 대해서 빠르고 정확한 솔루션을 제공하기위해서 HNSW 알고리즘을 기반으로 하여 검색엔진이 동작. 적은 거리를 계산하고, 거리 계산 비용을 더 저렴하게 하도록 하는 것에 목적. 입력 쿼리에 대한 가장 가까운 이웃을 찾기 위해 검색 프로세스는 최상위 계층의 그래프에서 가장 가까운 이웃을 찾고 이 점을 후속 계층에 대한 진입점으로 사용.
-  - 성능 향상 및 A/B 결과 유저 경험 개선
+- 성능 향상 및 A/B 결과 유저 경험 개선
